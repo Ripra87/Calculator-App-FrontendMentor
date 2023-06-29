@@ -1,0 +1,197 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 21rem;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: bold;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    width:23rem;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    margin: auto 0.5rem 0.2rem 0;
+}
+
+.themeGroup {
+    display: flex;
+    flex-direction: row;
+}
+
+#theme, .themeLabels {
+    font-size: 10px;
+}
+
+.themeLabels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.radioButton {
+    border-radius: 50px;
+}
+  
+input {
+    appearance: none;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border-color: transparent;
+}
+  
+input:checked {
+    background: red;
+}
+
+.resultArea {
+    width: inherit;
+    padding: 1rem;
+    height: 3.5rem;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    color:white;
+}
+
+
+
+#result {
+    font-size: 40px;
+}
+
+    .one {
+        grid-area: one;
+    }
+
+    .two {
+        grid-area: two;
+    }
+    .three {
+        grid-area: three;
+    }
+    .four {
+        grid-area: four;
+    }
+    .five {
+        grid-area: five;
+    }
+    .six {
+        grid-area: six;
+    }
+    .seven {
+        grid-area: seven;
+    }
+    .eight {
+        grid-area: eight;
+    }
+    .nine {
+        grid-area: nine;
+    }
+    .comma {
+        grid-area: comma;
+    }
+    .zero {
+        grid-area: zero;
+    }
+    .divided {
+        grid-area: divided;
+    }
+    .delete {
+        grid-area: delete;
+    }
+    .plus {
+        grid-area: plus;
+    }
+    .minus {
+        grid-area: minus;
+    }
+    .multiplied {
+        grid-area: multiplied;
+    }
+    .reset {
+        grid-area: reset;
+    }
+    .total {
+        grid-area: total;
+    }
+
+
+.gridArea {
+    width: inherit;
+    padding: 1rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "seven eight nine delete"
+    "four five six plus"
+    "one two three minus"
+    "comma zero divided multiplied"
+    "reset reset total total";
+    grid-gap: 1rem;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    opacity: 90%;
+    border-radius: 10px;
+}
+.btn, .btn2, .comma {
+    box-shadow: 0px 3px 3px;
+
+}
+
+.btn, .btn2, .delete, .comma {
+    width: 4.5rem;
+    height: 3rem;
+}
+
+.reset, .delete {
+    box-shadow: 0px 3px 3px;
+}
+
+.reset, .total {
+    height: 3rem;
+}
+
+.total {
+    box-shadow: 0px 3px 3px 
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+input:hover {
+    cursor: pointer;
+}
+

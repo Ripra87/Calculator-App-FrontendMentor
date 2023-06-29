@@ -1,4 +1,3 @@
-# Calculator-App-FrontendMentor
 # Frontend Mentor - Calculator app solution
 
 This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -31,4 +30,11 @@ All this managed by a simple event on the click, filtered with an if else using 
 Second part, the hardest for me, the operations management.
 Iterating the buttons, filtering them by their classes, i added two events, one working with the numpad of the keyboard and one by the click of the buttons on the screen, anyway the process is the same.
 Shortly, it works in this way: typing, the buttons are added in an empty array called "typedNumbers". When you click or type an operator like +, -, *, or /, the number in the string is added in an empty array called "operationArray", together with the operator just typed, and the string contained in typedNumbers is deleted, ready to contain a new number. After typing the operation, clicking on the result button = (or pressing Enter) you call the "resultFunction()": the last number typed into the string is added to the array, then all the element into the array are merged together using the .join() method, and finally converted from string to math using eval() that return the result of the operation typed.
+
+
+
+
+
+
+
 
